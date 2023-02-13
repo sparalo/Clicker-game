@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>UwU clicker</title>
+    <link href="style.css" rel="stylesheet">
+    <fieldset class="titre">
+        <img class="spark" src="https://www.onlygfx.com/wp-content/uploads/2018/09/5-gold-sparkle-5.png">
+        <h1>UwU clicker</h1>
+        <img class="spark" src="https://www.onlygfx.com/wp-content/uploads/2018/09/5-gold-sparkle-5.png">
+    </fieldset>
+    <script type="text/javascript" src="script.js"></script>
+    <script>displayGolds()</script>
+
+</head>
+
+<body>
+    <section id="gold">
+        <fieldset class="pm">
+            <h2>UwU golds:<span id="money">0</h2>
+        </fieldset>
+    </section>
+    <img class="ene" onclick="money()"
+        src="https://i.pinimg.com/originals/41/68/d0/4168d07d150eeb2e029cff19cacb770c.jpg">
+    <fieldset class="up">
+        <legend>upgrade</legend>
+
+
+        <button onclick="buyCupcake()">Cupcake [<span id="cupcakecost">10</span>] -- <span
+                id="cupcake">0</span></button><br>
+        <button onclick="buyPotion()">Potion [<span id="potioncost">500</span>] -- <span
+                id="potion">0</span></button><br>
+        <button onclick="buyLicorne()">Licorne [<span id="licornecost">1000</span>] -- <span
+                id="licorne">0</span></button><br>
+        <button onclick="saveGame() ;">Save Game</button>
+    </fieldset><br>
+
+    <center>
+        <button onclick="playAudio()" class="cute"></button>
+    </center>
+</body>
+
+
+</html>
